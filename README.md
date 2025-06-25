@@ -28,5 +28,14 @@ cargo install cargo-deny
 安装web框架
 cargo add actix-web@4.0.0
 
+安装宏调试
+cargo install cargo-expand
 
+rustup toolchain install nightly --allow-downgrade
+
+cargo expand
+或
+cargo +nightly expand
+
+curl -v http://127.0.0.1:8080/health_check
 ```
