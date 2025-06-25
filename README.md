@@ -24,4 +24,9 @@ cargo install cargo-audit
 cargo audit
 
 cargo install cargo-deny
+
+安装web框架
+cargo add actix-web@4.0.0
+
+
 ```
